@@ -1,0 +1,268 @@
+🎮 PROJECT TITLE
+
+Hunter Ascension
+Elite RPG-style productivity system inspired by hunter anime aesthetics and system-driven progression.
+
+🧠 ROLE
+
+You are a senior frontend engineer and UI designer building a React + Vite web app.
+Focus on immersive UI, smooth animations, and clean state logic.
+No backend. Use localStorage for persistence.
+
+🧱 TECH STACK
+
+React (functional components)
+
+Vite
+
+CSS Modules or Tailwind
+
+Framer Motion for animations
+
+Lucide or custom SVG icons
+
+LocalStorage for data
+
+Dark-mode-first design
+
+🎨 VISUAL STYLE
+
+Semi-dark fantasy UI
+
+Neon accents: cyan, blue, violet
+
+Glassmorphism panels
+
+HUD-style borders and overlays
+
+Soft glow, no clutter
+
+Subtle particle effects on rank-up only
+
+Avoid childish UI.
+This must feel elite, restrained, and powerful.
+
+🧩 CORE DATA MODELS
+Hunter
+{
+  name,
+  level,
+  rank,
+  xp,
+  streak,
+  unlockedSkills,
+  badges
+}
+
+Quest
+{
+  id,
+  title,
+  description,
+  rarity,
+  xp,
+  completed,
+  type: daily | normal | weekly
+}
+
+Mission
+{
+  id,
+  title,
+  difficulty,
+  quests[],
+  bossQuestId,
+  completed
+}
+
+🗂️ MAIN SCREENS
+1) Hunter Dashboard
+
+Hunter name, rank, level
+
+Animated XP ring
+
+Rank progress bar
+
+Current streak
+
+Active aura effects
+
+2) Quest Board
+
+Create/edit quests
+
+Rarity selector
+
+Completion animation with floating XP text
+
+Filter by rarity and status
+
+3) Mission Control
+
+Create missions
+
+Add quests
+
+Boss objective locked until others done
+
+Cinematic mission-clear animation
+
+4) Daily Hunts
+
+Reset every 24h
+
+Checklist UI
+
+“Daily Clear Bonus” popup if all done
+
+5) Skill Tree
+
+Locked/unlocked nodes
+
+Hover tooltips
+
+XP multipliers and perks
+
+6) Logs & Analytics
+
+Timeline of completions
+
+Animated stat charts
+
+Streak and consistency metrics
+
+🧪 SYSTEM LOGIC
+
+XP increases level
+
+Level thresholds unlock ranks
+
+Rank upgrades unlock UI effects
+
+Streak increases XP multiplier
+
+Missing a day breaks streak but no punishment
+
+Skills modify XP, streak behavior, bonuses
+
+🔔 SYSTEM NOTIFICATIONS
+
+Floating HUD-style popups:
+
+Quest Completed +XP
+
+Mission Cleared
+
+Rank Up
+
+Skill Unlocked
+
+Auto-dismiss with smooth fade and glow.
+
+🛡️ IMPORTANT RULES
+
+No backend assumptions
+
+No external auth
+
+No heavy libraries
+
+Focus on polish, not scale
+
+Everything must feel like a system, not a checklist
+
+🏅 BADGE NAMES
+
+Single-word. Elite. Meaningful. Timeless.
+
+Below are categories + names, not Gen Z fluff.
+
+🜂 DISCIPLINE BADGES
+
+Vigil – daily consistency
+
+Tenax – stubborn endurance
+
+Axiom – unbroken routine
+
+Continuum – long streak mastery
+
+Resolve – completion under pressure
+
+🜁 FOCUS BADGES
+
+Lucid – distraction-free sessions
+
+Stillness – calm execution
+
+Monolith – deep work dominance
+
+Clarity – sustained attention
+
+Singular – one-task mastery
+
+🜃 POWER / PROGRESSION BADGES
+
+Ascendant – rank progression
+
+Apex – peak performance
+
+Dominion – mission control mastery
+
+Vanguard – early adopter of growth
+
+Paragon – near-perfect execution
+
+🜄 MISSION / BOSS BADGES
+
+Vanquisher – boss objectives
+
+Executor – decisive finisher
+
+Overseer – complex missions cleared
+
+Conquest – high-difficulty clears
+
+Finality – no unfinished missions
+
+🜏 RARE / PRESTIGE BADGES
+
+These unlock only late-game.
+
+Nocturne – silent consistency
+
+Obsidian – resilience after failure
+
+Sovereign – long-term dominance
+
+Eclipse – peak streak with no misses
+
+Anima – total system harmony
+
+🎖️ TITLE EVOLUTION (Optional Layer)
+
+Titles are earned, not chosen.
+
+Initiate
+
+Pathfinder
+
+Warden
+
+Executor
+
+Ascendant
+
+Sovereign
+
+Displayed under hunter name in subtle glow.
+
+🧠 FINAL DESIGN PRINCIPLE
+
+Nothing flashy without meaning.
+Nothing noisy without purpose.
+Everything earned.
+
+This is not a “productivity app”.
+It is a personal system of command.
